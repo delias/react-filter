@@ -6,8 +6,8 @@ export default function SearchBar() {
       <input
         type="text"
         placeholder="Search..."
-        value={value}
-        onChange={handleChange}
+       // value={value}
+        //onChange={handleChange}
       />
     </div>
   );

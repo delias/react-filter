@@ -23,13 +23,13 @@ function App() {
   // // const [, set] = useState();
 
   const [data, setData] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
+  //const [filteredData, setFilteredData] = useState([]);
 
   useEffect(() => {
     let endpoint = "/data.json";
     getDataFromServer(endpoint).then(data => {
       setData(data);
-      setFilteredData(filteredData);
+      //setFilteredData(filteredData);
     });
   }, []);
   // console.log(data);
